@@ -17,8 +17,7 @@
     "csv exporter"
   ],
   "dependencies": {
-    "lodash.get": "^4.4.2",
-    "lodash.pick": "^4.4.0"
+    "lodash": "^4.17.15"
   },
   "scripts": {
     "lint": "standard",
@@ -26,9 +25,9 @@
     "test:watch": "watch-run -i -p 'lib/**/*.js,test/**/*.js' npm run test"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.5.3",
-    "standard": "^10.0.3",
+    "chai": "^5.1.0",
+    "mocha": "^10.4.0",
+    "standard": "^17.1.0",
     "watch-run": "^1.2.5"
   },
   "standard": {
